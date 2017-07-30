@@ -1,0 +1,138 @@
+  /* �ʱ�ȭ */
+    * {margin: 0 ; padding: 0;}
+    body {
+    	font-family: 'Times New Roman', Times, serif;
+		
+    }
+    li {list-style:none;}
+    a {text-decoration: none;}
+    img {border:0;}
+	hr{
+ 		border-color: #0BC904;
+ 		border-width: 4px;
+		padding-left: 160px;
+	}
+
+	#main_header {
+		width: 1300px; margin: 0 auto; 
+		height: 200px;
+		position: relative;
+		font-family: a엄마의편지M;
+	}
+	#main_header > #title {
+		position: absolute;
+		left:550px; top: 30px;
+		font-size: 70px;
+		color:#006700;
+	}
+	#main_header > #title > #addr{
+		position: center;
+		left:200px; top: 80px;
+		font-size: 20px;
+		color:#003100;
+	}
+	#main_header > #top {
+		position: absolute;  
+		right: 0; top: 7px; ;
+		width:300px;
+		height: 20px;
+	}
+
+	#menu {
+		position: absolute;
+		left: 175px; top:165px;
+		font-family: ;
+	}
+	#menu>a {
+		/*position: absolute;
+		left: 200px; top:165px;*/
+		font-family: a엄마의편지M;
+		margin-left:150px;
+	}		    
+
+	#title {
+		font-family: Bradley Hand ITC;
+		font-size: 4px;
+	}
+    
+	#top>ul{overflow: hidden;}
+	#top>ul>li {float: left;}
+	#top>ul>li>a{
+		display: block;
+		padding: 2px 10px;
+		border: 1px solid #BCE9B7;
+		color: #ABABAB;
+		font-weight: bold;
+	}
+	#top>ul>li>a:hover{
+		background: #62C15B;
+		color: white;
+	}
+	#top>ul>li:first-child > a {border-radius: 10px 0 0 10px;}
+	#top>ul>li:last-child > a {border-radius: 0 10px 10px 0;}
+
+
+	#menu>ul{overflow: hidden;}
+	#menu>ul>li { float: left;}
+	#menu>ul>li>a{
+		display: block;
+		overflow:hidden;
+		padding: 15px 100px;
+		color:#ABABAB;
+		font-weight:bold;
+	}
+	#menu>ul>li>a:hover{
+		color: green;
+	}
+	/*#menu>ul>li:first-child > a {border-radius: 10px 0 0 10px;}
+	#menu>ul>li:last-child > a {border-radius: 0 10px 10px 0;}*/
+
+	#menu  ul  ul {
+		display:none;
+
+	}
+	#menu>ul>li:hover ul {
+		display: block;
+	}
+	#menu>ul>li>ul {
+		float:left;
+		clear:both;
+	}
+	#menu>ul>li>ul>li>a {
+		display:inline-block;
+		color:#ABABAB;
+		font-weight:bold;
+		padding-left:80px;
+	}
+	
+
+
+    #aside_left{
+		font-family: a엄마의편지M;
+		position:absolute;
+		left: 50px;
+		top: 210px;
+		width: 150px;
+		margin-top: 20px;
+		float: left;
+		
+		padding: 10px 10px 10px 10px;
+		border:3px solid #BCE9B7;
+		border-radius: 15px;
+		
+		background-color:white;
+	}
+
+	
+ 	footer{
+		font-family: a엄마의편지M;
+		position:absolute;
+		top:1000px;
+		margin-left:0px;
+		left:0px;
+		width:1250px;
+		height:40px;
+		border: 1px solid skyblue;
+		background-color:skyblue;
+		color:white;
+	}

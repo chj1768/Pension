@@ -1,0 +1,344 @@
+  /* �ʱ�ȭ */
+    * {margin: 0 ; padding: 0;}
+    body {
+    	font-family: 'Times New Roman', Times, serif;
+		
+    }
+    li {list-style:none;}
+    a {text-decoration: none;}
+    img {border:0;}
+	hr{
+ 		border-color: #0BC904;
+ 		border-width: 4px;
+		padding-left: 0x;
+	}
+
+	#main_header {
+		width: 1300px; 
+		height: 200px;
+		margin: 0 auto; 
+		position: relative;
+		font-family: a����������M;
+	}
+	#main_header > #title {
+		position: absolute;
+		left:550px; top: 30px;
+		font-size: 70px;
+		color:#006700;
+	}
+	#main_header > #title > #addr{
+		position: center;
+		left:200px; top: 80px;
+		font-size: 20px;
+		color:#003100;
+	}
+	#main_header > #top {
+		position: absolute;  
+		right: 0; top: 7px; ;
+		width:300px;
+		height: 20px;
+	}
+
+/**************************************06/20 pm10:00 ����************************************************/
+	#menu {
+		position: absolute;
+		left: 120px; top:165px;
+		font-family: a����������M;
+	}
+/******************************************************************************************************/		
+
+	#menu>a {
+		/*position: absolute;
+		left: 200px; top:165px;*/
+		font-family: a����������M;
+		margin-left:150px;
+	}		    
+
+	#title {
+		font-family: Bradley Hand ITC;
+		font-size: 4px;
+	}
+    
+	#top>ul{overflow: hidden;}
+	#top>ul>li {float: left;}
+	#top>ul>li>a{
+		display: block;
+		padding: 2px 10px;
+		border: 1px solid #BCE9B7;
+		color: #ABABAB;
+		font-weight: bold;
+	}
+	#top>ul>li>a:hover{
+		background: #62C15B;
+		color: white;
+	}
+	#top>ul>li:first-child > a {border-radius: 10px 0 0 10px;}
+	#top>ul>li:last-child > a {border-radius: 0 10px 10px 0;}
+
+
+	#menu>ul{overflow: hidden;}
+	#menu>ul>li { float: left;}
+	#menu>ul>li>a{
+		display: block;
+		overflow:hidden;
+		padding: 15px 100px;
+		color:#ABABAB;
+		font-weight:bold;
+	}
+	#menu>ul>li>a:hover{
+		color: green;
+	}
+	/*#menu>ul>li:first-child > a {border-radius: 10px 0 0 10px;}
+	#menu>ul>li:last-child > a {border-radius: 0 10px 10px 0;}*/
+
+	#menu  ul  ul {
+		display:none;
+
+	}
+	#menu>ul>li:hover ul {
+		display: block;
+	}
+	#menu>ul>li>ul {
+		float:left;
+		clear:both;
+	}
+	#menu>ul>li>ul>li>a {
+		display:inline-block;
+		color:#ABABAB;
+		font-weight:bold;
+		padding-left:80px;
+	}
+
+/**************************************06/20 pm10:00 ����************************************************/
+	#menu>ul>li>ul>li>a:hover{
+		color:green;
+	}
+/******************************************************************************************************/
+
+    #aside_left{
+		font-family: a����������M;
+		position:absolute;
+		top: 210px;
+		margin-top: 20px;
+		float: left;
+		
+		padding: 10px 10px 10px 10px;
+		border:3px solid #BCE9B7;
+		border-radius: 15px;
+		
+		background-color:white;
+	}
+	
+
+/**************************************06/20 pm10:00 ����************************************************/
+ 	#main_footer{
+		font-family: a����������M;
+		position:absolute;
+		top:1600px;
+		margin-left:0px;
+		left:0px;
+		width:1250px;
+		height:40px;
+		border: 1px solid #B7F0B1;
+		background-color:#B7F0B1;
+		color:white;
+	}
+/******************************************************************************************************/
+	
+
+	
+/**************************************06/20 pm10:00 ����************************************************/
+	#room{
+		width: 1000px; 
+		height: 1160px;
+		position:absolute;
+		top: 265px;
+		left:210px;
+		
+		padding: 0px 0px 0px 0px;
+		/*border: 1px solid #BCE9B7;
+		border-radius: 15px;*/
+	}
+	#room>#r1a{
+		position:absolute;
+		top:0px;
+		left:410px;
+	}
+	#room>#r1b{
+		position:absolute;
+		top:65px;
+		left:40px;
+	}
+	#room>#r2a{
+		position:absolute;
+		top:330px;
+		left:0px;
+	}
+	#room>#r2b{
+		position:absolute;
+		top:420px;
+		left:550px;
+	}
+	#room>#r3a{
+		position:absolute;
+		top:690px;
+		left:410px;
+	}
+	#room>#r3b{
+		position:absolute;
+		top:780px;
+		left:30px;
+	}	
+	#room>#reserv{
+		position:absolute;
+		top:1170px;
+		left:300px;
+	}
+	
+	#detail{
+		width: 970px; 
+		height: 1180px;
+		position:absolute;
+		top: 265px;
+		left:210px;
+		
+		padding: 10px 10px 10px 10px;
+		/*border: 1px solid #BCE9B7;
+		border-radius: 15px;*/
+		
+		font-family: a����������M;
+	}
+	#detail>#dr1{
+		width:960px;
+		height: 300px;
+		position:absolute;
+		padding: 20px 20px 0px 0px;
+		top:850px;
+		color:#ABABAB;
+	}
+	#detail>#dr1>hr{
+		border-color:#BCE9B7;
+		border-width: 0.5px;
+		padding-left: 0px;
+	}
+	#detail>div>img{
+		float:left;
+		margin-left:10px;
+		margin-top:10px;
+		
+	}
+	
+	.guide{
+		width: 1000px; 
+		height: 900px;
+		position:absolute;
+		top: 265px;
+		left:210px;
+		
+		padding: 20px 20px 20px 20px;
+		/*border: 1px solid #BCE9B7;
+		border-radius: 15px;*/
+		
+		font-family: a����������M;
+		color:#ABABAB;
+	}
+	.direct{
+		width: 1000px; 
+		height: 900px;
+		position:absolute;
+		top: 265px;
+		left:210px;
+		
+		padding: 20px 20px 20px 20px;
+		/*border: 1px solid #BCE9B7;
+		border-radius: 15px;*/
+		
+		font-family: a����������M;
+		color:#ABABAB;
+	}
+	.direct>#gimage{
+		position:absolute;
+		top:0px;
+		left:0px;
+	}
+	.direct>.map{
+		position:absolute;
+		top:150px;
+		left:120px;
+	}
+	.direct>.dir1{
+		position:absolute;
+		top:600px;
+		left:100px;
+	}
+	.direct>.dir1>hr{
+		border-color:#BCE9B7;
+		border-width: 0.5px;
+		padding-left: 0px;
+	}
+	
+	.intro{
+		width: 1000px; 
+		height: 930px;
+		position:absolute;
+		top: 265px;
+		left:210px;
+		
+		padding: 20px 20px 20px 20px;
+		/*border: 1px solid #BCE9B7;
+		border-radius: 15px;*/
+		
+		font-family: a����������M;
+		color:#ABABAB;
+	}
+	.intro>#gimage{
+		position:absolute;
+		top:0px;
+		left:0px;
+	}
+	.intro>.exterior{
+		position:absolute;
+		top:150px;
+		left:140px;
+	}
+	.intro>.int1{
+		position:absolute;
+		width : 830px;
+		top:680px;
+		left:100px;
+	}
+	
+	#tour{
+		width: 1000px; 
+		height: 680px;
+		position:absolute;
+		top: 265px;
+		left:210px;
+		
+		padding: 20px 20px 20px 20px;
+		/*border: 1px solid #BCE9B7;
+		border-radius: 15px;*/
+		
+		font-family: a����������M;
+	}
+	#tour>#tourname{
+		position:absolute;
+		top:0px;
+		left:0px;
+	}
+	#tour>#tourdetail>h{
+		color:#CE723D;
+	}
+	#tour>#tourdetail{
+		width:830px;
+		height: 300px;
+		position:absolute;
+		padding: 20px 20px 0px 0px;
+		top:470px;
+		color:#ABABAB;
+		left:100px;
+	}
+	
+
+
+/******************************************************************************************************/	
